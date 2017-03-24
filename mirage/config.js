@@ -1,6 +1,7 @@
 export default function() {
 
     this.get('/cabins');
+    this.get('/cabins/:id');
   // These comments are here to help you get started. Feel free to delete them.
 
   /*
