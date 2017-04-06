@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('cabins', { path: '/cabins' });
   this.route('cabin', { path: '/cabins/:cabin_id' });
   this.route('reservations');
+  this.route('booking');
 });
 
 export default Router;

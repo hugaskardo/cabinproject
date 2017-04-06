@@ -1,0 +1,11 @@
+{{outlet}}
+
+{{#each model as |booking|}}
+  <ul>
+    <li>{{booking.client}}</li>
+    <li>{{booking.checkIn}}</li>
+    <li>{{booking.checkOut}}</li>
+    <li>{{booking.days}}</li>
+    <li>${{booking.price}}</li>
+  </ul>
+{{/each}}
