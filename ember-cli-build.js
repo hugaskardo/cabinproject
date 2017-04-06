@@ -7,6 +7,11 @@ module.exports = function(defaults) {
   });
 
   app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  //app.import('bower_components/fullcalendar/dist/fullcalendar.js');
+  //app.import('bower_components/fullcalendar/dist/fullcalendar.js');
+  //app.import('bower_components/moment/src/moment.js');
+  //app.import('bower_components/jquery/dist/jquery.js');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
