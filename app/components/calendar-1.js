@@ -1,8 +1,7 @@
 import Ember from 'ember';
+import BootstrapDatePicker from 'ember-cli-bootstrap-datepicker/components/bootstrap-datepicker';
 
-export default Ember.Component.extend({
+export default BootstrapDatePicker.extend({
 
-  didRender() {
-    $('#jquery-test').css('color', 'red');
-  }
+    orientation: 'bottom'
 });

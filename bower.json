@@ -2,7 +2,8 @@
   "name": "cabinproject",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "gmaps-for-apps": "^0.5.15"
+    "gmaps-for-apps": "^0.5.15",
+    "bootstrap-datepicker": "^1.6.4"
   },
   "devDependencies": {
     "jquery": "^3.2.1"
