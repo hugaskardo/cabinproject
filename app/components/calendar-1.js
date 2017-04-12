@@ -3,5 +3,9 @@ import BootstrapDatePicker from 'ember-cli-bootstrap-datepicker/components/boots
 
 export default BootstrapDatePicker.extend({
 
-    orientation: 'bottom'
+  orientation: 'bottom',
+
+  click() {
+    console.log(this.get('value'));
+  }
 });
