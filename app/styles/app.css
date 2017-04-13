@@ -3,3 +3,9 @@
 .ember-cli-g-map {
   height: 500px;
 }
+
+/* datepicker */
+.datepicker {
+  background-color: black ;
+  color: red;
+}

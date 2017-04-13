@@ -12,11 +12,27 @@ export default Ember.Route.extend({
   actions: {
     reserve() {
       console.log('make a reservation');
-      /* jQuery code
-        here
-      */
-      console.log('this is the startDate ', this.get('startDate'));
-      console.log('this is the endDate', this.get('endDate'));
+
+      // #1 dates are valid, start before end
+      this.send('validateDate');
+
+      // #2 dates aren't occupied
+
+      // #3 save date in the server
+
+    },
+
+    validateDate() {
+
+      let startDate = new Date(Ember.$('#calendarCheckIn').val());
+      let endDate = new Date(Ember.$('#calendarCheckOut').val());
+
+      if(startDate.getTime() < endDate.getTime()) {
+        console.log('dates are valid');
+      }
+      else {
+        console.log('dates are not valid');
+      }
     }
   }
 });
